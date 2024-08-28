@@ -1,0 +1,51 @@
+h2{
+    text-align: center;
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+    color: red;
+}
+section{
+    background-color: brown;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    column-gap: 5px;
+}
+img{
+    width:100%;
+    height:276.1px;
+}
+#im1:hover{
+    transform: translate(50px,200px);
+}
+#im2:hover{
+    transform: scale(2); 
+}
+#im3:hover{
+    transform: rotate(90deg); 
+     transform: skew(30deg,30deg); 
+}
+#im4:hover{
+     transform: perspective(100px)rotate(60deg);  
+}
+#im5:hover{
+    box-shadow: 10px 10px 5px ; 
+     transform: rotate3d(1, 1, 1, 90deg); 
+}
+#im6:hover{
+    box-shadow: -10px 10px 5px ; 
+    transform: translate3d(10px,20px,5px);
+}
+#im7:hover{
+    box-shadow: -10px 10px 5px ; 
+    transform: scaleX(2);
+}
+#im8:hover{
+    box-shadow: -10px 10px 5px ;
+    transform: rotate3d(1,1,1,45deg);
+}
+footer{
+    text-align: right;
+    color: white;
+    background-color: black;
+}
